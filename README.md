@@ -31,7 +31,7 @@ python main.py --mode=test
 `main.py` parse the command line arguments and pass it to the `Qgans_molGen.py` which access generator and discriminator model from `models.py` which inturn access `layers.py` and `utils.py` evaluate the metrics.  
 
 Below are some generated molecules:
-![Alt text](image/generated_sample.png?raw=true "Generated Molecules")
+![Alt text](images/generated_sample.png?raw=true "Generated Molecules")
 
 
 
