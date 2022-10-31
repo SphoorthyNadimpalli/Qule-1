@@ -11,10 +11,9 @@ This library refers to the following source code.
 * **rdkit**: https://www.rdkit.org
 * **pennylane**
 * **tensorflow==1.15**
-* **frechetdist**
 
 ## Dataset
-* run bash script `data/gdb9_generater.sh` to download gdb database and then run `data/sparse_molecular_dataset.py` to generate molecular graph dataset used to train the model.
+* Run bash script `data/gdb9_generater.sh` to download gdb database and then run `data/sparse_molecular_dataset.py` to generate molecular graph dataset used to train the model.
 
 ## Training
 ```
@@ -30,6 +29,7 @@ python main.py --mode=test
 ## Structure
 `main.py` parse the command line arguments and pass it to the `Qgans_molGen.py` which access generator and discriminator model from `models.py` which inturn access `layers.py` and `utils.py` evaluate the metrics.  
 
+## Generated Molecules
 Below are some generated molecules:
 ![Alt text](images/generated_sample.png?raw=true "Generated Molecules")
 
